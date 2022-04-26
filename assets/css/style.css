@@ -643,7 +643,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
-  bottom: -40px;
+  bottom: 0px;
   right: 0;
   text-align: center;
   padding-top: 10px;
@@ -671,12 +671,12 @@ h1, h2, h3, h4, h5, h6 {
 #speakers .speaker .details a {
   color: #fff;
 }
-#speakers .speaker .details a:hover {
+/* #speakers .speaker .details a:hover {
   color: #E000FF;
 }
 #speakers .speaker:hover .details {
   bottom: 0;
-}
+} */
 
 #speakers-details {
   padding: 60px 0;

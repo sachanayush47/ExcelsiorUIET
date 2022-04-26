@@ -14,6 +14,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
 a {
   color: #E000FF;
   text-decoration: none;
@@ -671,10 +679,10 @@ h1, h2, h3, h4, h5, h6 {
 #speakers .speaker .details a {
   color: #fff;
 }
-/* #speakers .speaker .details a:hover {
+#speakers .speaker .details a:hover {
   color: #E000FF;
 }
-#speakers .speaker:hover .details {
+/* #speakers .speaker:hover .details {
   bottom: 0;
 } */
 
